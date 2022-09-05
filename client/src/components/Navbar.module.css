@@ -1,0 +1,222 @@
+.divNav{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-around;
+    height: 100px;
+    background-color: var(--secundary--color);
+}
+
+.pokedex{
+    width: 20%;
+}
+
+.searchbtn{
+    width: 30%;
+}
+
+a{
+    text-decoration: none;
+}
+
+.pPoke{
+    display: flex;
+    font-size: 1.9rem;
+    font-weight: 600;
+    font-style: italic;
+    color: var(--main--color)
+}
+
+.pPoke:hover{
+    font-size: 2rem;
+}
+
+input{
+    font-size: 1.2rem;
+    font-style: italic;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    background-color: rgba(0, 0, 0, 0);   
+    margin-top: 6%;
+    outline: none;
+    color: white;
+}
+
+.btnSearch{
+    font-size: 1.6rem;
+    width: 35px;
+    height: 35px;
+    background-image: url('../img/icons8-búsqueda-100.png');
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+    border-radius: 10px;
+    outline: none;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.btnSearch:hover{
+    background-color: white;
+}
+
+.divCreate{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10%;
+    margin-top: 2%;
+}
+
+.btnCreate{
+    background-color: var(--main--color);
+    font-weight: 600;
+    margin-top: 2%;
+    border-radius: 30%;
+    font-size: 1.2rem;
+}
+.btnCreate:hover{
+    background-color: white;
+
+}
+
+.lblCreate{
+    margin-top: 8%;
+    margin-right: 38%;
+    width: 200px;
+    background-color: rgba(0, 0, 0, 0);
+    color: white;
+}
+
+@media screen and (min-device-width: 706px) and (max-device-width: 883px) { 
+
+    input{
+        font-size: 0.8rem;
+    }
+
+    .btnSearch{
+        width: 25px;
+        height: 25px;
+        font-size: 0.7rem;
+    }
+
+    .divCreate{
+        margin-right: 0;
+        
+    }
+
+    .btnCreate{
+        font-size: 0.8rem;  
+    }
+
+    .pokedex{
+        width: 20%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .lblCreate{
+        margin-top: 5%;
+    }
+
+    input{
+        margin-top: 5%;
+    }
+    
+}
+
+@media screen and (min-device-width: 567px) and (max-device-width: 705px){
+    input{
+        font-size: 0.8rem;
+    }
+
+    .btnSearch{
+        width: 20px;
+        height: 20px;
+        font-size: 0.6rem;
+    }
+
+    .lblCreate{
+        margin-right: 0;
+        width: 140px;
+    }
+
+    .btnCreate{
+        font-size: 0.8rem;
+        margin-left: 40%;  
+    }
+}
+
+@media screen and (min-device-width: 524px) and (max-device-width: 566px){
+    input{
+        font-size: 0.6rem;
+    }
+
+    .btnSearch{
+        width: 20px;
+        height: 20px;
+        font-size: 0.5rem;
+    }
+
+    .lblCreate{
+        margin-right: 0;
+        width: 140px;
+        font-size: 0.8rem;
+    }
+
+    .btnCreate{
+        font-size: 0.8rem;
+        margin-left: 90%;  
+    }
+}
+
+@media screen and (min-device-width: 424px) and (max-device-width: 523px){
+    input{
+        font-size: 0.6rem;
+    }
+
+    .btnSearch{
+        width: 20px;
+        height: 20px;
+        font-size: 0.5rem;
+    }
+
+    .lblCreate{
+        margin-right: 0;
+        width: 140px;
+        font-size: 0.8rem;
+    }
+
+    .btnCreate{
+        font-size: 0.8rem;
+        margin-left: 90%;  
+    }
+}
+
+@media screen and (min-device-width: 320px) and (max-device-width: 423px){
+    input{
+        font-size: 0.4rem;
+    }
+
+    .btnSearch{
+        width: 10px;
+        height: 10px;
+        font-size: 0.4rem;
+    }
+
+    .lblCreate{
+        width: 20px;
+        font-size: 0.5rem;
+    }
+
+    .btnCreate{
+        margin-left:10px;
+        font-size: 0.4rem;
+    }
+
+    .pPoke{
+        font-size: 1rem;
+    }
+}
+
+

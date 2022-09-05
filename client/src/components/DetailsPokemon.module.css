@@ -1,0 +1,57 @@
+
+.divDetails{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    height: 90vh;
+    width: 50vw;
+    background-color: var(--secundary--color);
+    margin-top: 1%;
+    margin-left: auto;
+    margin-right: auto;
+    border: 15px double white;
+}
+
+.divDetails img{
+    margin-bottom: 20px;
+}
+
+.divDetails div{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin-top: -32px;
+}
+
+.divDetails h3{
+    display: flex;
+    width: 101%;
+    font-size: 2rem;
+    background-color: white;
+    justify-content: center;
+    margin-top: -1px;
+}
+
+
+.divDetails p{
+    color: white;
+    list-style: none;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.btnBack{
+    height: 400px;
+    font-size: 1.5rem;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: var(--main--color);
+    color: white;
+    padding-bottom: 5px;
+}
+
+.imgLoading{
+    margin-top: 8%;
+}
+

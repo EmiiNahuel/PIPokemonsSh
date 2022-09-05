@@ -1,0 +1,676 @@
+.divPrincipal{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    gap: 0.3%;
+}
+
+.divInfo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: auto;
+    margin-bottom: auto;
+    width: 40%;
+    height: 550px;
+    border: 2px solid #fff;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    background-color: var(--secundary--color);
+    text-align: justify;
+}
+
+.divForm{
+    display: flex;
+    justify-content: center;
+    margin-top: auto;
+    margin-bottom: auto;
+    width: 40%;
+    height: 550px;
+    border: 2px solid #fff;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background-color: var(--secundary--color);
+}
+
+.divInfo h4{
+    display: flex;
+    justify-content: center;
+    color: #fff;
+    font-size: 1.5rem;
+}
+
+.divUl{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.divUl ul{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    color: #fff;
+    font-size: 1.1rem;
+    list-style: none;
+}
+
+.divUl ul li{
+    margin-left: 35%;
+}
+
+.divForm h4{
+    display: flex;
+    color: #fff;
+    justify-content: center;
+    font-size: 1.5rem;
+}
+
+.divForm input{
+    display: flex;
+    width: 250px;
+    height: 18px;
+}
+
+.sel{
+    margin-top: 12%;
+}
+
+.crear{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25%;
+    background-color: red;
+    width: 140px;
+    height: 35px;
+    color: #fff;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.btnVolver{
+    background-image: url('../img/icons8-flecha-responder-64\ \(4\).png');
+    width: 65px;
+    height: 65px;
+    background-color: red;
+    color: #fff;
+    border-radius: 100%;
+    border: none;
+    outline: none;
+    position: absolute;
+    left: 110px;
+    bottom: 320px;
+    cursor: pointer;
+}
+
+.errorN{
+    color: red;
+    margin: 0;
+    margin-bottom: -20px;
+    margin-right: 50%;
+}
+
+.errorHP{
+    color: red;
+    margin: 0;
+    margin-bottom: -20px;
+    margin-right: 20%;
+}
+
+.errorA{
+    color: red;
+    margin: 0;
+    margin-bottom: -20px;
+    margin-right: 20%;
+}
+
+.errorD{
+    color: red;
+    margin: 0;
+    margin-bottom: -20px;
+    margin-right: 20%;
+}
+
+.errorS{
+    color: red;
+    margin: 0;
+    margin-bottom: -20px;
+    margin-right: 20%;
+}
+
+.errorH{
+    color: red;
+    margin: 0;
+    margin-bottom: -20px;
+    margin-right: 20%;
+}
+
+.errorW{
+    color: red;
+    margin: 0;
+    margin-bottom: -20px;
+    margin-right: 20%;
+}
+
+@media screen and (min-device-width: 925px) and (max-device-width: 1025px){
+    .btnVolver{
+        width: 63px;
+        height: 63px;
+        left: 70px;
+        bottom: 370px;
+    }
+}
+
+@media screen and (min-device-width: 725px) and (max-device-width: 924px){
+    .btnVolver{
+        width: 62px;
+        height: 62px;
+        left: 40px;
+        bottom: 370px;
+    }
+
+    .divForm input{
+        width: 220px;
+    }
+
+    .divInfo img{
+        width: 160px;
+        height: 190px;
+    }
+}
+
+@media screen and (min-device-width: 600px) and (max-device-width: 725px){
+    
+    .divInfo h4{
+        font-size: 1.2rem;
+        margin-bottom: 20%;
+    }
+    
+    .divInfo img{
+        width: 160px;
+        height: 190px;
+        margin-bottom: 10%;
+    }
+
+    .divForm h4{
+        font-size: 1.2rem;
+        margin-bottom: 25%;
+    }
+
+    .divUl ul{
+        font-size: 1rem;
+    }
+
+    .divUl ul li{
+        margin-left: 25%;
+    }
+    
+    .divForm input{
+        width: 200px;
+    }
+
+    .crear{
+        width: 100px;
+        height: 25px;
+        font-size: 1.1rem;
+    }
+
+    .btnVolver{
+        width: 62px;
+        height: 62px;
+        left: 30px;
+        bottom: 370px;
+    }
+
+    .errorN{
+        margin-bottom: -10px;
+        margin-right: 54%;
+        font-size: 0.6rem;
+    }
+    
+    .errorHP{
+        margin-bottom: -10px;
+        margin-right: 30%;
+        font-size: 0.6rem;
+    }
+    
+    .errorA{
+        margin-bottom: -10px;
+        margin-right: 30%;
+        font-size: 0.6rem;
+    }
+    
+    .errorD{
+        margin-bottom: -10px;
+        margin-right: 30%;
+        font-size: 0.6rem;
+    }
+    
+    .errorS{
+        margin-bottom: -10px;
+        margin-right: 30%;
+        font-size: 0.6rem;
+    }
+    
+    .errorH{
+        margin-bottom: -10px;
+        margin-right: 33%;
+        font-size: 0.6rem;
+    }
+    
+    .errorW{
+        margin-bottom: -10px;
+        margin-right: 33%;
+        font-size: 0.6rem;
+    }
+}
+
+@media screen and (min-device-width: 500px) and (max-device-width: 599px){
+    .divInfo h4{
+        font-size: 1.1rem;
+        margin-bottom: 20%;
+    }
+    
+    .divInfo img{
+        width: 160px;
+        height: 160px;
+        margin-bottom: 25%;
+    }
+
+    .divForm h4{
+        font-size: 1.1rem;
+        margin-bottom: 50%;
+    }
+
+    .divUl ul{
+        font-size: 0.8rem;
+    }
+
+    .divUl ul li{
+        margin-left: 18%;
+    }
+
+    .divForm input{
+        width: 150px;
+        font-size: 0.8rem;
+    }
+
+    .crear{
+        width: 100px;
+        height: 25px;
+        font-size: 1.1rem;
+    }
+
+    .btnVolver{
+        width: 59px;
+        height: 59px;
+        left: 15px;
+        bottom: 350px;
+    }
+
+    .errorN{
+        margin-bottom: -15px;
+        /* margin-right: 57%; */
+        font-size: 0.5rem;
+    }
+    
+    .errorHP{
+        margin-bottom: -15px;
+        /* margin-right: 39%; */
+        font-size: 0.5rem;
+    }
+    
+    .errorA{
+        margin-bottom: -15px;
+        /* margin-right: 39%; */
+        font-size: 0.5rem;;
+    }
+    
+    .errorD{
+        margin-bottom: -15px;
+        /* margin-right: 39%; */
+        font-size: 0.5rem;
+    }
+    
+    .errorS{
+        margin-bottom: -15px;
+        /* margin-right: 39%; */
+        font-size: 0.5rem;
+    }
+    
+    .errorH{
+        margin-bottom: -15px;
+        /* margin-right: 43%; */
+        font-size: 0.5rem;
+    }
+    
+    .errorW{
+        margin-bottom: -10px;
+        /* margin-right: 43%; */
+        font-size: 0.5rem;
+    }
+}
+
+@media screen and (min-device-width: 400px) and (max-device-width: 499px){
+
+    .divInfo{
+        width: 45%;
+    }
+
+    .divForm{
+        width: 45%;
+    }
+
+    .divInfo h4{
+        font-size: 1rem;
+        margin-bottom: 35%;
+    }
+    
+    .divInfo img{
+        width: 120px;
+        height: 140px;
+        margin-bottom: 30%;
+    }
+
+    .divForm h4{
+        font-size: 1rem;
+        margin-bottom: 70%;
+    }
+
+    .divUl ul{
+        font-size: 0.8rem;
+    }
+
+    .divUl ul li{
+        margin-left: 16%;
+    }
+
+    .divForm input{
+        width: 110px;
+        font-size: 0.8rem;
+    }
+
+    .crear{
+        width: 100px;
+        height: 25px;
+        font-size: 1.1rem;
+        margin-top: 50%;
+    }
+
+    .btnVolver{
+        background-position: center center;
+        width: 50px;
+        height: 50px;
+        left: 3px;
+        bottom: 350px;
+    }
+
+    .errorN{
+        width: 100%;
+        margin-bottom: -10px;
+        font-size: 0.5rem;
+        text-align: justify;
+    }
+    
+    .errorHP{
+        width: 100%;
+        margin-bottom: -10px;
+        font-size: 0.5rem;
+        text-align: justify;
+    }
+    
+    .errorA{
+        width: 100%;
+        margin-bottom: -10px;
+        font-size: 0.5rem;
+        text-align: justify;
+    }
+    
+    .errorD{
+        width: 100%;
+        margin-bottom: -10px;
+        font-size: 0.5rem;
+        text-align: justify;
+    }
+    
+    .errorS{
+        width: 100%;
+        margin-bottom: -10px;
+        font-size: 0.5rem;
+        text-align: justify;
+    }
+    
+    .errorH{
+        width: 100%;
+        margin-bottom: -10px;
+        font-size: 0.5rem;
+        text-align: justify;
+    }
+    
+    .errorW{
+        width: 100%;
+        margin-bottom: -10px;
+        font-size: 0.5rem;
+        text-align: justify;
+    }
+}
+
+@media screen and (min-device-width: 350px) and (max-device-width: 399px){
+
+    .divInfo{
+        width: 45%;
+    }
+
+    .divForm{
+        width: 45%;
+    }
+
+    .divInfo h4{
+        font-size: 1rem;
+        margin-bottom: 35%;
+    }
+    
+    .divInfo img{
+        width: 120px;
+        height: 140px;
+        margin-bottom: 30%;
+    }
+
+    .divForm h4{
+        font-size: 1rem;
+        margin-bottom: 70%;
+    }
+
+    .divUl ul{
+        font-size: 0.8rem;
+    }
+
+    .divUl ul li{
+        margin-left: 5%;
+    }
+
+    .divForm input{
+        width: 110px;
+        font-size: 0.8rem;
+    }
+
+    .crear{
+        width: 80px;
+        height: 20px;
+        font-size: 1rem;
+        margin-top: 50%;
+    }
+
+    .btnVolver{
+        background-image: url('../img/icons8-flecha-responder-50.png');
+        background-position: center center;
+        width: 40px;
+        height: 40px;
+        left: 1px;
+        bottom: 350px;
+
+    }
+
+    .errorN{
+        width: 100%;
+        margin-bottom: -10px;
+        font-size: 0.5rem;
+        text-align: justify;
+    }
+    
+    .errorHP{
+        width: 100%;
+        margin-bottom: -10px;
+        font-size: 0.5rem;
+        text-align: justify;
+    }
+    
+    .errorA{
+        width: 100%;
+        margin-bottom: -10px;
+        font-size: 0.5rem;
+        text-align: justify;
+    }
+    
+    .errorD{
+        width: 100%;
+        margin-bottom: -10px;
+        font-size: 0.5rem;
+        text-align: justify;
+    }
+    
+    .errorS{
+        width: 100%;
+        margin-bottom: -10px;
+        font-size: 0.5rem;
+        text-align: justify;
+    }
+    
+    .errorH{
+        width: 100%;
+        margin-bottom: -10px;
+        font-size: 0.5rem;
+        text-align: justify;
+    }
+    
+    .errorW{
+        width: 100%;
+        margin-bottom: -10px;
+        font-size: 0.5rem;
+        text-align: justify;
+    }
+}
+
+@media screen and (min-device-width: 320px) and (max-device-width: 349px){
+    .divInfo{
+        width: 45%;
+    }
+
+    .divForm{
+        width: 45%;
+    }
+
+    .divInfo h4{
+        font-size: 0.8rem;
+        margin-bottom: 35%;
+        margin-top: 40%;
+    }
+    
+    .divInfo img{
+        width: 110px;
+        height: 130px;
+        margin-bottom: 30%;
+    }
+
+    .divForm h4{
+        font-size: 0.8rem;
+        margin-bottom: 70%;
+        margin-top: 54%;
+    }
+
+    .divUl ul{
+        font-size: 0.8rem;
+    }
+
+    .divUl ul li{
+        margin-left: 5%;
+    }
+
+    .divForm input{
+        width: 110px;
+        font-size: 0.8rem;
+    }
+
+    .crear{
+        width: 80px;
+        height: 20px;
+        font-size: 1rem;
+        margin-top: 50%;
+    }
+
+    .btnVolver{
+        background-image: url('../img/icons8-flecha-responder-50.png');
+        background-position: center center;
+        width: 40px;
+        height: 40px;
+        left: 1px;
+        bottom: 320px;
+
+    }
+
+    .errorN{
+        width: 100%;
+        margin-bottom: -10px;
+        font-size: 0.5rem;
+        text-align: justify;
+    }
+    
+    .errorHP{
+        width: 100%;
+        margin-bottom: -10px;
+        font-size: 0.5rem;
+        text-align: justify;
+    }
+    
+    .errorA{
+        width: 100%;
+        margin-bottom: -10px;
+        font-size: 0.5rem;
+        text-align: justify;
+    }
+    
+    .errorD{
+        width: 100%;
+        margin-bottom: -10px;
+        font-size: 0.5rem;
+        text-align: justify;
+    }
+    
+    .errorS{
+        width: 100%;
+        margin-bottom: -10px;
+        font-size: 0.5rem;
+        text-align: justify;
+    }
+    
+    .errorH{
+        width: 100%;
+        margin-bottom: -10px;
+        font-size: 0.5rem;
+        text-align: justify;
+    }
+    
+    .errorW{
+        width: 100%;
+        margin-bottom: -10px;
+        font-size: 0.5rem;
+        text-align: justify;
+    }
+}

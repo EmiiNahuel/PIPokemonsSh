@@ -1,0 +1,46 @@
+.divCard{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--secundary--color);
+    color: white;
+    width: 250px;
+    height: 57vh;
+    font-size: 1.2rem;
+    font-style: italic;
+    margin-bottom: 2%;
+    margin-top:10%;
+    border-radius: 4%;
+    padding-top: 5px;
+    gap: -2%
+}
+.divCard:hover{
+    
+    background-color: rgba(0, 0, 0, 0.752);
+    box-shadow: -1px 2px 25px 10px rgba(245,245,245,0.75);;
+}
+
+@media screen and (min-device-width: 706px) and (max-device-width: 883px){
+    .divCard{
+        font-size: 0.9rem;
+    }
+}
+
+@media screen and (min-device-width: 508px) and (max-device-width: 705px){
+    .divCard{
+        font-size: 1rem;
+    }
+}
+
+@media screen and (min-device-width: 400px) and (max-device-width: 523px){
+    .divCard{
+        font-size: 0.8rem;
+    }
+}
+
+@media screen and (min-device-width: 320px) and (max-device-width: 399px){
+    .divCard{
+        font-size: 0.8rem;
+    }
+}

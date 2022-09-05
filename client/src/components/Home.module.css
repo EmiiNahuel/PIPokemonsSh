@@ -1,0 +1,93 @@
+.divPrincipal{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15%;
+    margin-top: 1%;
+    height: 10%;
+}
+
+label{
+    font-size: 1.2rem;
+    font-weight: 600;
+    background-color: var(--secundary--color);
+    padding-left: 3%;
+    padding-right: 3%;
+    color: white;
+    font-style: italic;
+}
+
+.divFilters{
+    display: flex;
+    width: 30%;
+    justify-content: space-around;
+    margin-left: 10%;
+}
+
+.Loading{
+    font-size: 1rem;
+    
+}
+
+@media screen and (min-device-width: 706px) and (max-device-width: 880px){
+    label{
+        font-size: 0.7rem;
+    }
+
+    .divFilters{
+        margin-left: 0;
+        gap: 10%;
+    }
+
+
+    .fil{
+        font-size: 0.8rem;
+    }
+}
+
+@media screen and (min-device-width: 400px) and (max-device-width: 523px){
+    label{
+        font-size: 0.6rem;
+    }
+
+    .ord{
+        font-size: 0.6rem;
+    }
+
+    .fil{
+        font-size: 0.6rem;
+    }
+
+    .filo{
+        font-size: 0.6rem;
+    }
+
+
+}
+
+@media screen and (min-device-width: 320px) and (max-device-width: 423px){
+    label{
+        font-size: 0.5rem;
+        margin-left: -40%;
+    }
+
+    .ord{
+        font-size: 0.4rem;
+    }
+
+    .fil{
+        margin-left: -50%;
+        font-size: 0.5rem;
+    }
+
+    .filo{
+        margin-left: -30%;
+        font-size: 0.5rem;
+    }
+}
+
+
+
+
+
+
