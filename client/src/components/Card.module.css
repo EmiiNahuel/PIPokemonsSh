@@ -23,12 +23,44 @@
 
 @media screen and (min-device-width: 706px) and (max-device-width: 883px){
     .divCard{
-        font-size: 0.9rem;
+        font-size: 0.8rem;
+    }
+
+    .titlePok{
+        font-size: 1.5rem;
+    }
+
+    img{
+
+    }
+
+    .attack{
+        font-size: 1rem;
+    }
+
+    .types{
+        font-size: 1rem;
     }
 }
 
-@media screen and (min-device-width: 508px) and (max-device-width: 705px){
+@media screen and (min-device-width: 524px) and (max-device-width: 705px){
     .divCard{
+        font-size: 0.8rem;
+    }
+
+    .titlePok{
+        font-size: 1.5rem;
+    }
+
+    img{
+
+    }
+
+    .attack{
+        font-size: 1rem;
+    }
+
+    .types{
         font-size: 1rem;
     }
 }
@@ -37,10 +69,42 @@
     .divCard{
         font-size: 0.8rem;
     }
+
+    .titlePok{
+        font-size: 1.5rem;
+    }
+
+    img{
+
+    }
+
+    .attack{
+        font-size: 1rem;
+    }
+
+    .types{
+        font-size: 1rem;
+    }
 }
 
 @media screen and (min-device-width: 320px) and (max-device-width: 399px){
     .divCard{
         font-size: 0.8rem;
+    }
+
+    .titlePok{
+        font-size: 1.5rem;
+    }
+
+    img{
+
+    }
+
+    .attack{
+        font-size: 1rem;
+    }
+
+    .types{
+        font-size: 1rem;
     }
 }

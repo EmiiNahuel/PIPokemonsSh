@@ -12,6 +12,7 @@
 }
 
 .searchbtn{
+    display: flex;
     width: 30%;
 }
 
@@ -54,6 +55,7 @@ input{
     border-radius: 10px;
     outline: none;
     cursor: pointer;
+    margin-top: 5%;
     transition: 0.5s;
 }
 .btnSearch:hover{
@@ -126,96 +128,151 @@ input{
 }
 
 @media screen and (min-device-width: 567px) and (max-device-width: 705px){
+
+
+    .pokedex{
+        display: none;
+    }
+
+    .pPoke{
+        display: none;
+    }
+
     input{
-        font-size: 0.8rem;
+        font-size: 0.7rem;
     }
 
     .btnSearch{
-        width: 20px;
-        height: 20px;
-        font-size: 0.6rem;
+        width: 25px;
+        height: 25px;
     }
 
     .lblCreate{
-        margin-right: 0;
-        width: 140px;
+        width: 170px;
+        font-size: 0.8rem;
     }
 
     .btnCreate{
-        font-size: 0.8rem;
-        margin-left: 40%;  
+        font-size: 0.9rem;
     }
 }
 
 @media screen and (min-device-width: 524px) and (max-device-width: 566px){
+
+    .divCreate{
+        width: 45%;
+        margin-left: 5%;
+    }
+
+    .searchbtn{
+        width: 45%;
+    }
+
+    .pokedex{
+        display: none;
+    }
+
+    .pPoke{
+        display: none;
+    }
+
     input{
-        font-size: 0.6rem;
+        font-size: 0.7rem;
     }
 
     .btnSearch{
-        width: 20px;
-        height: 20px;
-        font-size: 0.5rem;
+        margin-top: 5%;
+        width: 25px;
+        height: 25px;
     }
 
     .lblCreate{
-        margin-right: 0;
-        width: 140px;
+        width: 160px;
         font-size: 0.8rem;
     }
 
     .btnCreate{
-        font-size: 0.8rem;
-        margin-left: 90%;  
+        margin-left: 45%;
+        font-size: 0.9rem; 
     }
 }
 
 @media screen and (min-device-width: 424px) and (max-device-width: 523px){
+
+    .divCreate{
+        width: 45%;
+        margin-left: 5%;
+    }
+
+    .searchbtn{
+        width: 45%;
+    }
+
+    .pokedex{
+        display: none;
+    }
+
+    .pPoke{
+        display: none;
+    }
+
+    input{
+        font-size: 0.7rem;
+    }
+
+    .btnSearch{
+        margin-top: 5%;
+        width: 25px;
+        height: 25px;
+    }
+
+    .lblCreate{
+        width: 160px;
+        font-size: 0.8rem;
+    }
+
+    .btnCreate{
+        font-size: 0.9rem;
+        margin-left: 45%; 
+    }
+}
+
+@media screen and (min-device-width: 320px) and (max-device-width: 423px){
+    .divCreate{
+        width: 40%;
+    }
+
+    .searchbtn{
+        width: 40%;
+    }
+
+    .pokedex{
+        display: none;
+    }
+
+    .pPoke{
+        display: none;
+    }
+
     input{
         font-size: 0.6rem;
     }
 
     .btnSearch{
-        width: 20px;
-        height: 20px;
-        font-size: 0.5rem;
+        margin-top: 5%;
+        width: 25px;
+        height: 25px;
     }
 
     .lblCreate{
+        width: 180px;
+        font-size: 0.8rem;
         margin-right: 0;
-        width: 140px;
-        font-size: 0.8rem;
     }
 
     .btnCreate{
-        font-size: 0.8rem;
-        margin-left: 90%;  
-    }
-}
-
-@media screen and (min-device-width: 320px) and (max-device-width: 423px){
-    input{
-        font-size: 0.4rem;
-    }
-
-    .btnSearch{
-        width: 10px;
-        height: 10px;
-        font-size: 0.4rem;
-    }
-
-    .lblCreate{
-        width: 20px;
-        font-size: 0.5rem;
-    }
-
-    .btnCreate{
-        margin-left:10px;
-        font-size: 0.4rem;
-    }
-
-    .pPoke{
-        font-size: 1rem;
+        font-size: 0.9rem;
+        margin-left: 75%; 
     }
 }
 

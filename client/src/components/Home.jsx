@@ -77,7 +77,7 @@ export default function Home(){
                 <div>
              <label>FILTER BY TYPE:</label>
              <select onChange={(e) => handleFilterByType(e)} className={s.fil}>
-                 <option value="allt">ALL</option>
+                 <option value="allt"></option>
                  {
                      allTypes?.map(e => (<option key={e.name} value={e.name}>{e.name.toUpperCase()}</option>))
                  }
@@ -89,7 +89,7 @@ export default function Home(){
                 <label>FILTER BY ORIGIN:</label>
                 <select className={s.filo} onChange={(e) => handleByFilterOrigin(e)}>
 
-                    <option value="allp">ALL POKEMONS</option>
+                    <option value="allp"></option>
                     <option value="exist">EXISTING</option>
                     <option value="created">CREATED</option>
                 </select>

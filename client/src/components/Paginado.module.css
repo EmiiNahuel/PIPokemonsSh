@@ -31,19 +31,19 @@
 
 @media screen and (min-device-width: 508px) and (max-device-width: 705px){
     .paginado li button{
-        font-size: 0.9rem;
+        font-size: 1.2rem;
     }
 }
 
 @media screen and (min-device-width: 400px) and (max-device-width: 507px){
     .paginado li button{
-        font-size: 0.8rem;
+        font-size: 1.1rem;
     }
 }
 
 @media screen and (min-device-width: 320px) and (max-device-width: 399px){
     .paginado li button{
-        font-size: 0.6rem;
+        font-size: 1rem;
     }
 }
  

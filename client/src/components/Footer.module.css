@@ -35,36 +35,37 @@
 }
 
 @media screen and (min-device-width: 472px) and (max-device-width: 795px){
-    .divOne{
-        height: 12vh;
-        margin-top: 10%;
+    .derechos{
+        width: 60%;
     }
 
-    .derechos{
-        font-weight: 400;
-        font-size: 0.8rem;
+    .derechos p{
+        font-size: 1.1rem;
     }
 
     .redes{
-        width: 10%;
+        width: 30%;
     }
 
     .btnArriba{
-        font-weight: 400;
-        font-size: 0.6rem;
+        display: none;
     }
 }
 
 @media screen and (min-device-width: 320px) and (max-device-width: 471px){
     .derechos{
-        font-size: 0.6rem;
+        width: 60%;
+    }
+
+    .derechos p{
+        font-size: 0.9rem;
     }
 
     .redes{
-        width: 5%;
+        width: 30%;
     }
 
     .btnArriba{
-        font-size: 0.5rem
+        display: none;
     }
 }

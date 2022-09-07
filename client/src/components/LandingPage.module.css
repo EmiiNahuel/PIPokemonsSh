@@ -23,8 +23,88 @@
     transition: 1s;
     box-shadow: -1px 7px 21px 19px rgba(0,0,0,0.75);
 }
+
 .btnComenzar:hover{
     background-color:yellow;
     color: blue;
     border: 3px solid blue;
-  }
+}
+
+@media screen and (min-device-width: 900px) and (max-device-width: 1024px){
+    .btnComenzar{
+        margin-top: 55%;
+    }
+}
+
+@media screen and (min-device-width: 800px) and (max-device-width: 899px){
+    .btnComenzar{
+        margin-top: 60%;
+        height: 3.7rem;
+        font-size: 1.4em;
+    }
+}
+
+@media screen and (min-device-width: 700px) and (max-device-width: 799px){
+    .btnComenzar{
+        margin-top: 70%;
+        height: 3.7rem;
+        width: 25%;
+        font-size: 1.4em;
+    }
+}
+
+@media screen and (min-device-width: 600px) and (max-device-width: 699px){
+    .btnComenzar{
+        margin-top: 80%;
+        margin-left: 22%;
+        height: 3.7rem;
+        width: 25%;
+        font-size: 1.3em;
+    }
+}
+
+@media screen and (min-device-width: 500px) and (max-device-width: 599px){
+    .btnComenzar{
+        margin-top: 95%;
+        margin-left: 22%;
+        height: 3.7rem;
+        width: 28%;
+        font-size: 1.3em;
+    }
+}
+
+@media screen and (min-device-width: 400px) and (max-device-width: 499px){
+    .btnComenzar{
+        margin-top: 110%;
+        margin-left: 40%;
+        background-color: yellow;
+        border: yellow;
+        color: black;
+        height: 3.7rem;
+        width: 30%;
+        font-size: 1.2em;
+    }
+
+    .divLanding{
+        background-image: url('../img/LandingMinRes.jpg');
+        background-position: center;
+    }
+}
+
+@media screen and (min-device-width: 320px) and (max-device-width: 399px){
+    .btnComenzar{
+        margin-top: 140%;
+        margin-left: 40%;
+        background-color: yellow;
+        border: yellow;
+        color: black;
+        height: 3.7rem;
+        width: 39%;
+        font-size: 1.2em;
+    }
+
+    .divLanding{
+        background-image: url('../img/LandingMinRes.jpg');
+        background-position: center;
+    }
+}

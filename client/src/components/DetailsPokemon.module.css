@@ -2,8 +2,7 @@
 .divDetails{
     display: flex;
     flex-direction: column;
-    align-items: center;
-    
+    align-items: center; 
     height: 90vh;
     width: 50vw;
     background-color: var(--secundary--color);
@@ -49,9 +48,184 @@
     background-color: var(--main--color);
     color: white;
     padding-bottom: 5px;
+    outline: none;
+    border: 1px solid var(--main--color);
 }
 
 .imgLoading{
     margin-top: 8%;
 }
 
+@media screen and (min-device-width: 1000px) and (max-device-width: 1200px){
+    .divDetails{
+        width: 60vw;
+        margin-top: 5%;
+    }
+
+    .btnBack{
+        height: 40px; 
+        font-size: 1.4rem;
+        margin-top: 1%;  
+    }
+
+    .divDetails p{
+        font-size: 1.3rem;
+    }
+
+    .divDetails img{
+        margin-bottom: 50px;
+    }
+}
+
+@media screen and (min-device-width: 900px) and (max-device-width: 999px){
+    .divDetails{
+        width: 60vw;
+        margin-top: 5%;
+    }
+
+    .btnBack{
+        height: 40px; 
+        font-size: 1.4rem;
+        margin-top: 1%;  
+    }
+
+    .divDetails p{
+        font-size: 1.3rem;
+    }
+
+    .divDetails img{
+        margin-bottom: 50px;
+    }
+}
+
+@media screen and (min-device-width: 800px) and (max-device-width: 899px){
+    .divDetails{
+        width: 60vw;
+        margin-top: 5%;
+    }
+
+    .btnBack{
+        height: 40px; 
+        font-size: 1.4rem;
+        margin-top: 5%;   
+    }
+
+    .divDetails p{
+        font-size: 1.2rem;
+        text-align:left
+    }
+
+    .divDetails img{
+        margin-bottom: 50px;
+    }
+}
+
+@media screen and (min-device-width: 700px) and (max-device-width: 799px){
+    .divDetails{
+        width: 70vw;
+        margin-top: 5%;
+    }
+
+    .btnBack{
+        height: 40px; 
+        font-size: 1.4rem;
+        margin-top: 5%;   
+    }
+
+    .divDetails p{
+        font-size: 1.2rem;
+        text-align:left
+    }
+
+    .divDetails img{
+        margin-bottom: 50px;
+    }
+}
+
+@media screen and (min-device-width: 600px) and (max-device-width: 699px){
+    .divDetails{
+        width: 80vw;
+        margin-top: 5%;
+    }
+
+    .btnBack{
+        height: 40px; 
+        font-size: 1.4rem;
+        margin-top: 5%;   
+    }
+
+    .divDetails p{
+        font-size: 1.2rem;
+        text-align:left
+    }
+
+    .divDetails img{
+        margin-bottom: 50px;
+    }
+}
+
+@media screen and (min-device-width: 500px) and (max-device-width: 599px){
+    .divDetails{
+        width: 80vw;
+        margin-top: 5%;
+    }
+
+    .btnBack{
+        height: 40px; 
+        font-size: 1.4rem;
+        margin-top: 5%;   
+    }
+
+    .divDetails p{
+        font-size: 1.2rem;
+        text-align:left
+    }
+
+    .divDetails img{
+        margin-bottom: 50px;
+    }
+}
+
+@media screen and (min-device-width: 400px) and (max-device-width: 499px){
+    .divDetails{
+        width: 80vw;
+        margin-top: 5%;
+    }
+
+    .btnBack{
+        height: 40px; 
+        font-size: 1.4rem;
+        margin-top: 5%;   
+    }
+
+    .divDetails p{
+        font-size: 1.2rem;
+        text-align:left
+    }
+
+    .divDetails img{
+        margin-bottom: 50px;
+    }
+}
+
+@media screen and (min-device-width: 320px) and (max-device-width: 399px){
+    .divDetails{
+        width: 80vw;
+        margin-top: 5%;
+    }
+
+    .btnBack{
+        height: 40px; 
+        font-size: 1.4rem;
+        margin-top: 15%;   
+    }
+
+    .divDetails p{
+        font-size: 1.1rem;
+        text-align:left
+    }
+
+    .divDetails img{
+        margin-bottom: 70px;
+    }
+}

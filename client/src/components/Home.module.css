@@ -45,44 +45,125 @@ label{
     }
 }
 
-@media screen and (min-device-width: 400px) and (max-device-width: 523px){
-    label{
-        font-size: 0.6rem;
+@media screen and (min-device-width: 524px) and (max-device-width: 705px){
+    .divFilters{
+        margin-left: 0;
     }
 
+    label{
+        font-size: 0.9rem;
+    }
+
+
     .ord{
-        font-size: 0.6rem;
+        font-size: 0.7rem;
+    }
+
+    .divFilters{
+        width: 45%;
+        gap: 10%;
     }
 
     .fil{
-        font-size: 0.6rem;
+        height: 17px;
+        width: 70px;
     }
 
     .filo{
-        font-size: 0.6rem;
+        height: 17px;
+        width: 70px;
+    }
+}
+
+@media screen and (min-device-width: 424px) and (max-device-width: 523px){
+    .divFilters{
+        margin-left: 0;
     }
 
+    label{
+        font-size: 0.7rem;
+    }
+
+
+    .ord{
+        font-size: 0.7rem;
+    }
+
+    .divFilters{
+        width: 45%;
+        gap: 10%;
+    }
+
+    .fil{
+        height: 17px;
+        width: 70px;
+    }
+
+    .filo{
+        height: 17px;
+        width: 70px;
+    }
 
 }
 
-@media screen and (min-device-width: 320px) and (max-device-width: 423px){
-    label{
-        font-size: 0.5rem;
-        margin-left: -40%;
+@media screen and (min-device-width: 370px) and (max-device-width: 423px){
+
+    .divFilters{
+        margin-left: 0;
     }
 
+    label{
+        font-size: 0.7rem;
+    }
+
+
     .ord{
-        font-size: 0.4rem;
+        font-size: 0.5rem;
+    }
+
+    .divFilters{
+        width: 45%;
+        gap: 10%;
     }
 
     .fil{
-        margin-left: -50%;
-        font-size: 0.5rem;
+        height: 15px;
+        width: 70px;
     }
 
     .filo{
-        margin-left: -30%;
+        height: 15px;
+        width: 70px;
+    }
+}
+
+@media screen and (min-device-width: 320px) and (max-device-width: 369px){
+    .divFilters{
+        margin-left: 0;
+    }
+
+    label{
+        font-size: 0.7rem;
+    }
+
+
+    .ord{
         font-size: 0.5rem;
+    }
+
+    .divFilters{
+        width: 45%;
+        gap: 10%;
+    }
+
+    .fil{
+        height: 15px;
+        width: 70px;
+    }
+
+    .filo{
+        height: 15px;
+        width: 70px;
     }
 }
 
